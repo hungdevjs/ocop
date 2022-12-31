@@ -1,5 +1,13 @@
+import { Box } from "@mui/material";
+
+import Layout from "../../components/Layout";
+
 const Home = () => {
-  return <>Home Page - List Product 1111 333</>;
+  return (
+    <Layout>
+      <Box height={500}>Content...</Box>
+    </Layout>
+  );
 };
 
 export default Home;
